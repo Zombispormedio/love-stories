@@ -1,1 +1,34 @@
 /* Empty. Add your own CSS if you like */
+@font-face {
+    font-family: "Lobster";
+    src: url("../lib/ionic/fonts/lobster.otf");
+}
+#questions{
+	position: fixed;
+	z-index: 1000;
+	
+	width:85%;
+	
+	left:1.5em;
+	text-align: justify;
+	
+}
+#questions .item{
+	    font-size: 1.3em;
+}
+
+#start_message{
+	text-align: center;
+	margin-top: 50%;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+#start_message h1{
+text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	color:white;
+	font-size: 4em;
+	font-family: "Lobster";
+}
+.hidden{
+	visibility: hidden;
+}
+
