@@ -27,7 +27,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
         var length = $scope.questions.length;
         var random_number = getRandomInt(0, length - 1);
         $scope.current_question = $scope.questions[random_number];
-        $scope.current_questions.splice(random_number);
+        $scope.current_questions.splice(random_number, 1);
     };
 
     $http.get("js/questions.json")
